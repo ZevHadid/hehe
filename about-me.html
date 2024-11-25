@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="overflow-hidden">
+    <nav class="navbar navbar-expand-sm bg-light px-3">
+        <a class="navbar-brand text-primary" href="about-me.html">
+            Zev Hadid Santoso
+        </a>
+
+        <div class="container-fluid">
+            <a href="about-me.html" class="btn btn-outline-primary flex-fill mx-5">about me</a>
+            <a href="contacts.html" class="btn btn-outline-primary flex-fill mx-5">contacts</a>
+            <div class="dropdown flex-fill mx-5">
+                <button class="btn btn-outline-primary d-block w-100 dropdown-toggle" data-bs-toggle="dropdown">skills</button>
+                <ul class="dropdown-menu p-0 rounded-0">
+                    <li><a class="btn btn-primary d-block w-100 rounded-0 text-start">Python</a></li>
+                    <li><a class="btn btn-primary d-block w-100 rounded-0 text-start">C</a></li>
+                    <li><a class="btn btn-primary d-block w-100 rounded-0 text-start">C++</a></li>
+                    <li><a class="btn btn-primary d-block w-100 rounded-0 text-start">JavaScript</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card w-50 mx-auto mt-4">
+        <div class="card-body text-primary">
+            <h4>My name is Zev Hadid and I'm a software engineer.</h4>
+
+            <div class="carousel slide bg-primary mt-3" id="pics" data-bs-slide="carousel">
+                <div class="carousel-indicators">
+                    <button data-bs-target="#pics" data-bs-slide-to="0" class="active"></button>
+                    <button data-bs-target="#pics" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#pics" data-bs-slide-to="2"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="fig1.jpg" class="d-block mx-auto" height="400px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="fig2.jpg" class="d-block mx-auto" height="400px">
+                    </div>
+                    <div class="carousel-item       ">
+                        <img src="fig3.jpg" class="d-block mx-auto" height="400px">
+                    </div>
+                </div>
+
+                <div class="carousel-control-prev" data-bs-target="#pics" data-bs-slide="prev">
+                    <a href="#" class="carousel-control-prev-icon"></a>
+                </div>
+                <div class="carousel-control-next" data-bs-target="#pics" data-bs-slide="next">
+                    <a href="#" class="carousel-control-next-icon"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
